@@ -44,9 +44,14 @@ pip install -r requirements.txt
 notebooks/instacart_project.ipynb  
 
 ## Principales Hallazgos
-- La mayoría de los pedidos contienen un número reducido de productos  
-- Existen productos básicos con tasas de reorden muy altas  
-- El comportamiento de reorden varía significativamente entre usuarios  
-- Un conjunto reducido de productos aparece frecuentemente como el primer artículo agregado al carrito  
+- La mayoría de los pedidos contienen entre 3 y 10 productos, lo que indica cestas de compra de tamaño pequeño a mediano.
+
+- La actividad de pedidos alcanza su punto máximo los fines de semana y entre las 10:00 y las 16:00 horas, lo que sugiere un comportamiento de compra planificado durante los periodos de alta disponibilidad.
+
+- Se observan picos significativos en los días entre pedidos a los 7 y 30 días, lo que indica ciclos de compra semanales y mensuales.
+
+- Los plátanos son el primer artículo que se añade con más frecuencia al carrito y aparecen constantemente entre los productos más comprados y con mayor número de pedidos repetidos, lo que refuerza su papel como producto básico.
+
+- Las tasas de reordenamiento son altas tanto a nivel de producto como de usuario, lo que indica rutinas de compra consistentes y un comportamiento de compra habitual.
 
 Autor: Valeria — Analista de Datos Jr.
